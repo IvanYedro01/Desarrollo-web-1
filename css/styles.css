@@ -6,9 +6,13 @@
     --gris: #757575;
 }
 
-hmtl{
+html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
+*,*::before, *:after{
+    box-sizing: inherit;
+}/*Snippet*/
 
 body{
     font-size: 16px;
@@ -61,3 +65,10 @@ body{
     color: var(--negro);
 }   
 
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 20px ;
+}
